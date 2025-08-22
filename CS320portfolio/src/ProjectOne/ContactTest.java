@@ -15,7 +15,7 @@ class ContactTest {
         assertEquals("John", contact.getFirstName());
         assertEquals("Doe", contact.getLastName());
         assertEquals("1234567890", contact.getPhone());
-        assertEquals("123 Main St", contact.getAddress());
+        assertEquals("123 Main St", contact.getAddress()); 
     }
     
     @Test

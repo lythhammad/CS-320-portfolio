@@ -14,7 +14,7 @@ public class ContactService {
         for (Contact existingContact : contactList) {
             if (existingContact.getContactId().equals(contact.getContactId())) {
                 throw new IllegalArgumentException("Contact with this ID already exists.");
-            }
+            } 
         }
         contactList.add(contact);
     }

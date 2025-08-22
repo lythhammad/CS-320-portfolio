@@ -14,7 +14,7 @@ class ContactServiceTest {
     @BeforeEach
     void setUp() {
         service = new ContactService();
-    }
+    } 
 
     // Test adding a contact successfully.
     @Test

@@ -11,9 +11,9 @@ private String address;
 // The constructor validates and initializes a new Contact object.
 public Contact(String contactId, String firstName, String lastName, String phone, String address) {
    // Validation checks to ensure inputs meet requirements
-   if (contactId == null || contactId.length() > 10) {
-       throw new IllegalArgumentException("Invalid contact ID.");
-   }
+   if (contactId == null || contactId.length() > 10) { 
+       throw new IllegalArgumentException("Invalid contact ID."); 
+   } 
    
    if (firstName == null || firstName.length() > 10) {
        throw new IllegalArgumentException("Invalid first name.");
